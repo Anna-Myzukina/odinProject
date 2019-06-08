@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Etch a sketch</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  
+  <main>
+
+    <h1>Etch a sketch project</h1>
+
+    <section>
+      <h3>Description</h3>
+
+      <p class="p-l">This is a program that creates html elements through DOM manipulation</p>
+    </section>
+
+    <form action="#" class="form p-l">
+      <label for="">
+        Replace the values in the fields below to create a block of divs
+      </label>
+      <input type="text" name="columns" placeholder="columns" value="4">
+      <input type="text" name="rows" placeholder="rows" value="4">
+      <button type="button" class="create btn">Create divs</button>
+    </form>
+
+    <div>
+      <h4>Warning/Error messages</h4>
+      <span class="logs" disabled>No problems</span>
+    </div>
+
+    <h4>You can also clear the already created divs</h4>
+
+    <button type="button" class="clearBtn">Clear</button>
+
+  	<div class="container"></div>
+
+  </main>
+
+	<script src="./scripts.js"></script>
+</body>
+</html>
