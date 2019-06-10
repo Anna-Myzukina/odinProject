@@ -67,7 +67,8 @@ main {
   padding: 1rem;
 }
 .google-logo {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
 .search {
   width: 90%;
